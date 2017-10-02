@@ -1,4 +1,5 @@
 import React from 'react';
+import {Icon} from 'react-fa'
 
 class AwesomeComponent extends React.Component {
 
@@ -18,7 +19,9 @@ class AwesomeComponent extends React.Component {
       <div>
         Likes: <span>{this.state.likesCount}</span>
         <div><button onClick={this.onLike}>Like Me</button></div>
+          <Icon spin name="spinner" />
       </div>
+
     );
   }
 
