@@ -20,7 +20,6 @@
     "node-sass": "^4.5.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-fontawesome": "^1.6.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "latest"
   },
